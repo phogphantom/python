@@ -66,7 +66,7 @@ def monster_room():
     2. Show your courage and kill the monster''')
 
     answer = input('>').lower
-    
+    #this is a comment
     if answer == '1':
         print('You very quitley open the door')
         diamond_room()
