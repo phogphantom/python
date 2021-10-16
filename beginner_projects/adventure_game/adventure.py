@@ -31,7 +31,7 @@ def diamond_room():
     1. Grab as many diamonds as possible and go trough the door
     2. Leave the diamonds behind and go throug the door''')
 
-    answer = input('>').lower
+    answer = input('>').lower()
 
     if answer == '1':
         game_over('The diamonds were cursed and as soon as you touched them the world went black')
@@ -65,7 +65,7 @@ def monster_room():
     1. Sneak around the monster and open the door quitely
     2. Show your courage and kill the monster''')
 
-    answer = input('>').lower
+    answer = input('>').lower()
     #this is a comment
     if answer == '1':
         print('You very quitley open the door')
